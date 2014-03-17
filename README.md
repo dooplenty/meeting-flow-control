@@ -34,3 +34,12 @@
 <p>All times associated with in progress topics will be dynamic based on the start time and duration of the previous topic or just the start time if there is no preceeding topics.</p>
 
 <p>Subscriptions will be sent out based on the expected start time of the upcoming topic subscribed to.</p>
+
+<h3>Main Libraries</h3>
+
+<ul>
+  <li><a href='http://nodejs.org'>Node.js</a></li>
+  <li><a href='http://expressjs.com'>Express</a></li>
+  <li><a href='http://angularjs.org'>Angularjs</a></li>
+  <li><a href='http://bookshelfjs.org'>Bookshelf.js</a></li>
+</ul>
