@@ -1,0 +1,9 @@
+<div class="container" ng-controller="ReviewCtrl">
+	<div class="review">
+    	<a ng-href="#/Review/{{currentReview.ReviewID}}">{{currentReview.Title}}</a>
+	</div>
+
+	<div class="topic" ng-repeat="topic in topics">
+   		{{topic.Topic}}
+	</div>
+</div>

@@ -12,13 +12,11 @@ module.exports = function(req, res) {
 	var todayDate = new Date();
 	var todayDate = dateFormat(todayDate, 'yyyy-mm-dd');
 
-	console.log(todayDate);
-
 	//get all reviews with date >= current date
 	upcomingReviews
-		.query('where', 'ReviewDate', '>=', todayDate)
-		.fetch()
-		.then(function(model){
-			res.json(model);
+		.query()
+		.where('ReviewDate', '>=', todayDate)
+		.then(function(reviews){
+			res.json(reviews);
 		});
 };

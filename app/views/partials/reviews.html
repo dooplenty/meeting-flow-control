@@ -1,0 +1,5 @@
+<div class="container" ng-controller="MainCtrl">
+  <div class="review" ng-repeat="review in upcomingReviews">
+      <a ng-href="#/Review/{{review.ReviewID}}">{{review.Title}}</a>
+  </div>
+</div>
